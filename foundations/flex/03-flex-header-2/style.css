@@ -12,6 +12,15 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-side, .right-side {
+  display: flex;
+  align-items: center; /* centers items vertically inside "side" divs  */
+  gap: 16px;
 }
 
 .profile-image {
@@ -21,6 +30,7 @@ body {
   width: 48px;
   height: 48px;
 }
+
 
 .logo {
   color: rebeccapurple;
@@ -37,12 +47,18 @@ button {
   padding: 8px 24px;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0; /* removes padding and margins on list items */
+  padding: 0;
+  gap: 12px;
+}
+
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
 }
 
-ul {
-  list-style-type: none;
-}
+
