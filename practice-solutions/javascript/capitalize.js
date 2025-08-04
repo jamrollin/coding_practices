@@ -4,8 +4,12 @@
  * @param {string} str - Input string (e.g., "fOrTnItE")
  * @returns {string} - Capitalized string (e.g., "Fornite")
  */
+
+// Function capitalize takes string parameter
 function capitalize(str) {
-  if (!str || typeof str !== 'string') return str; // Handle empty/null/undefined inputs
+// If input is empty/null/undefined return the string  
+  if (!str || typeof str !== 'string') return str; 
+// Takes the first letter of the string and turns it into Uppercase; remaining characters starting from index 1 are turned to lowercase 
   return str[0].toUpperCase() + str.slice(1).toLowerCase();
 }
 
