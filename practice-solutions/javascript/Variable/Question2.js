@@ -25,7 +25,7 @@ console.log (`Tulip - unit price: ${tulipPrice} quantity: ${tulipQuantity}, valu
 console.log (`Total: ${total}`);
 
 roseQuantity -= 20; // roseQuantity = roseQuantity - 20
-lilyQuantity -= 30; // lilyQuantity = lilyQuantity - 20
+lilyQuantity -= 30; // lilyQuantity = lilyQuantity - 30
 
 rosesValue = rosePrice * roseQuantity;
 liliesValue = lilyPrice * lilyQuantity;
